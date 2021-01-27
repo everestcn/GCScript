@@ -1,0 +1,63 @@
+made with:Python 3.8.5 [GCC 9.3.0] on linux
+    
+GCScript v0.01    
+
+The Help System:
+-> outprint text    
+OUTPUT:text
+<------------------------------------>
+e.g. 
+>>>outprint "well come to the GCS!"
+OUTPUT:"well come to the GCS!"   
+
+
+<------------------------------------> 
+-> setv[value_types]
+value_types = ["string", "int", "float", "boolen", "bin"]
+<------------------------------------>
+e.g. 
+>>>setv[string]
+input for your value name:test
+>>>test
+""
+>>>
+<------------------------------------>
+
+->SaveAndQuit()
+<------------------------------------>
+e.g.
+>>>SaveAndQuit()
+exit with code 0
+<------------------------------------>
+
+-> help()
+<------------------------------------>
+e.g.
+>>>help()
+OUTPUT:":)"
+<------------------------------------>
+
+->using(../../../xxx.gc)
+
+<------------------------------------>
+e.g.
+>>>using(test.gc)
+OUTPUT:"This is a test!"
+OUTPUT:"End"
+>>>
+<------------------------------------>
+->pause(time) #time must be int!
+PS:pause(3) = pause(3 second)
+<------------------------------------>
+e.g.
+>>>pause(3)
+3 second later...
+>>>
+<------------------------------------>
+->input text
+<------------------------------------>
+e.g.
+>>>input "what's your name?"
+what's your name?xxx
+INPUT:xxx
+>>>

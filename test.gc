@@ -1,0 +1,5 @@
+outprint "hello"
+outprint "this is a test"
+get_input "Press any key then press ENTER"
+pause(3)
+outprint "bye"
